@@ -38,6 +38,10 @@ input[type=submit] {
         font-weight: bold;
 }
 
+input[type=submit]:hover {
+    background-color: #3B8884;
+}
+
 .clearfix::after{
     content:"";
     clear: both;
