@@ -1,0 +1,49 @@
+/* Portfolio Style Page */
+
+
+.portfolio-wrapper {
+    clear:both;
+    width: 920px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: scroll;
+    border: 1px solid #c5b2a9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #ffffff;
+    color: #bec5c3;
+    font-weight: bold;
+}
+
+.portfolio-boxes {
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+}
+
+
+.caption {
+    position: relative;
+    bottom: 60px;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight: normal;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+table, th, td {
+    border: 0;
+    padding: 0;
+    margin: 0;
+ }

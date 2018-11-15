@@ -1,0 +1,12 @@
+/* About Me Style Page */
+
+*
+
+#bio-text {
+    overflow: scroll;  
+}
+
+#self {
+    float: left;
+    margin-right: 20px;
+}

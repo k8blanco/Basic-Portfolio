@@ -1,0 +1,45 @@
+/* Contact Style Page */
+
+*
+
+.contact-wrapper {
+    clear:both;
+    width: 920px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: scroll;
+    border: 1px solid #c5b2a9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #ffffff;
+    color: #bec5c3;
+    font-weight: bold;
+    height: 750px;
+}
+
+input[type=text], select, textarea {
+        width: 100%; 
+        padding: 16px; 
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
+        margin-top: 5px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+}
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
