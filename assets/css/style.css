@@ -56,10 +56,24 @@ h2 {
     float:left;
 }
 
-a {
+a:link{
     color: #c5b2a9;
     text-decoration: none;
 }
+
+a:active {
+    color: darkslategray;
+}
+
+a:visited {
+    color: #c5b2a9;
+}
+
+a:hover{
+    color: #ffffff;
+    background-color: #c5b2a9;
+}
+
 
 #heading-2-border{
     border-bottom: 3px solid #dddddd;
@@ -80,7 +94,10 @@ a {
     margin-right: auto;
     margin-left: auto;
     margin-top: 40px;
-    height: 750px;
+    height: auto;
+    font-size: 16px;
+    font-weight: normal;
+    color: darkgray;
 }
 
 
